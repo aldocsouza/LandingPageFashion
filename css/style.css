@@ -1,0 +1,139 @@
+body{
+    margin: 5%;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-article-1, 
+.main-section-gallery,
+.main-article-about,
+.main-adress-contact,
+.map,
+.footer{
+    margin-top: 2em;
+}
+
+.topHeader{
+    background-image: url(../imagens/topo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 3em;
+}
+
+.maxWidth{
+    margin: auto;
+    max-width: 1366px;
+}
+
+.header-navbar-list{
+    list-style-type: none;
+    display: flex;
+    gap: 2em;
+    text-transform: uppercase;
+    text-align: center;  
+}
+
+.header-navbar-list a{
+    color: rgba(255, 255, 255, 0.3);
+    transition: color .6s ease-in-out;
+}
+.header-navbar-list a:hover{
+    color: white;
+}
+
+.main-article-1{
+    margin-top: 2rem;
+    padding: 1rem 8.125rem;
+    text-align: center;
+}
+
+.main-article-1 h2{
+    font-size: 2.687rem;
+    margin: 2rem 0;
+}
+.main-article-1 p{
+    line-height: 1.7;  
+    font-size: 1.1rem;
+    color: #555555;
+}
+
+.main-section-gallery{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    gap: 1em;
+    padding: 0 8em;
+    box-sizing: border-box;
+}
+
+.main-section-gallery h3{
+    text-transform: uppercase;
+    color: rgb(0, 61, 82);
+    line-height: .3;
+    letter-spacing: 5px;
+}
+.main-section-gallery p{
+    color: #555555;
+}
+.cards img{
+    width: 100%;
+    display: block;
+}
+.cards{
+    width: 100%;
+}
+.main-article-about{
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: rgb(0, 61, 82);
+    color: white;
+    padding: 8em;
+}
+
+.main-article-about h2{
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 65px;
+    line-height: .3;
+}
+
+.main-article-about p{
+    width: 60%;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.main-adress-contact{
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: .2;
+    padding: 1em;
+}
+
+.main-adress-contact h3{
+    color: rgb(0, 61, 82);
+    text-align: center;
+    font-size: 1.562em;
+}
+
+.map iframe{
+    width: 100%;
+}
+
+.footer{
+    background-color: rgb(0, 28, 37);
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+}
